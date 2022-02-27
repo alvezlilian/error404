@@ -1,0 +1,46 @@
+body{
+    font-family: 'Allerta', sans-serif;
+}
+main{
+    width: 100%;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    
+}
+article{
+    width: calc(50% - 15px); 
+    height: 50em;
+    max-width: 100%;
+    
+ 
+
+
+}
+.imagen{
+  background-image: url(../Scarecrow.png);
+ background-size: 100%;
+ background-repeat: no-repeat;
+  
+}
+a{
+    display: block;
+   text-align: center;
+    background-color: darkcyan;
+    width: 20%;
+    margin-left: 25%;
+    color: beige;
+    padding: 1em;
+    text-decoration: none; 
+    transition: 1.5ms;
+    
+    
+}
+a:hover{
+    opacity: 0.5;
+}
+.texto{
+   margin-top: 12%;
+}
